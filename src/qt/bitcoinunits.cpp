@@ -42,10 +42,10 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("B0RG");
-    case mBTC: return QString("mB0RG");
-    case uBTC: return QString("uB0RG");
-    case SAT: return QString("droneoshi");
+    case BTC: return QString("DRONES");
+    case mBTC: return QString("mDRONES");
+    case uBTC: return QString::fromUtf8("µDRONES");
+    case SAT: return QString("zaps");
     default: return QString("???");
     }
 }
@@ -54,8 +54,8 @@ QString BitcoinUnits::shortName(int unit)
 {
     switch(unit)
     {
-    case uBTC: return QString::fromUtf8("bits");
-    case SAT: return QString("sat");
+    case uBTC: return QString::fromUtf8("µDRONES");
+    case SAT: return QString("zaps");
     default: return longName(unit);
     }
 }
@@ -65,9 +65,9 @@ QString BitcoinUnits::description(int unit)
     switch(unit)
     {
     case BTC: return QString("drones");
-    case mBTC: return QString("milli-drones (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("micro-drones (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-    case SAT: return QString("droneoshis (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case mBTC: return QString("mDRONES (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString::fromUtf8("µDRONES (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case SAT: return QString("zaps (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

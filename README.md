@@ -38,7 +38,23 @@ Default data directory is `~/.b0rg`.
 | test | 29333 | 29332 | `tborg` | `tborgmweb` |
 | regtest | 19433 | 19432 | `rborg` | `rborgmweb` |
 
-Mainnet transparent addresses start with `B` (P2PKH, version 25) or `D` (P2SH, version 30).
+Mainnet transparent addresses start with `B` (P2PKH, version 25) or `D` (P2SH, version 30). On Windows the data directory is `%APPDATA%\B0RG`.
+
+The desktop wallet shows amounts as **DRONES** (1 DRONES = 1 B0RG), **mDRONES**, **µDRONES**, and **zaps** (1 zap = 1 satoshi). That labeling is display-only.
+
+To sync a Windows wallet from the pool node, add one peer (the default P2P port is already 19333):
+
+```
+addnode=pool.shed-p00l.com
+```
+
+or, over Tailscale:
+
+```
+addnode=100.101.120.28
+```
+
+Put that in `%APPDATA%\B0RG\b0rg.conf`, or start with `b0rg-qt.exe -addnode=pool.shed-p00l.com`.
 
 ```bash
 src/b0rgd -daemon

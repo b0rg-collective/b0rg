@@ -34,11 +34,11 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
 {
     ui->setupUi(this);
 
-    QString version = QString{PACKAGE_NAME} + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
+    QString version = QStringLiteral("B0RG") + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
 
     if (about)
     {
-        setWindowTitle(tr("About %1").arg(PACKAGE_NAME));
+        setWindowTitle(tr("About B0RG"));
 
         std::string licenseInfo = LicenseInfo();
         /// HTML-format the license message from the core

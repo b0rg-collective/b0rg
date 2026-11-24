@@ -81,8 +81,8 @@ AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode _mode,
     case ForSelection:
         switch(tab)
         {
-        case SendingTab: setWindowTitle(tr("Choose the address to send coins to")); break;
-        case ReceivingTab: setWindowTitle(tr("Choose the address to receive coins with")); break;
+        case SendingTab: setWindowTitle(tr("Choose the address to send drones to")); break;
+        case ReceivingTab: setWindowTitle(tr("Choose the address to receive drones with")); break;
         }
         connect(ui->tableView, &QTableView::doubleClicked, this, &QDialog::accept);
         ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
@@ -101,12 +101,12 @@ AddressBookPage::AddressBookPage(const PlatformStyle *platformStyle, Mode _mode,
     switch(tab)
     {
     case SendingTab:
-        ui->labelExplanation->setText(tr("These are your Assimilation Coin addresses for sending payments. Always check the amount and the receiving address before sending coins."));
+        ui->labelExplanation->setText(tr("These are your B0RG addresses for sending payments. Always check the amount and the receiving address before sending drones."));
         ui->deleteAddress->setVisible(true);
         ui->newAddress->setVisible(true);
         break;
     case ReceivingTab:
-        ui->labelExplanation->setText(tr("These are your Assimilation Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.\nSigning is only possible with addresses of the type 'legacy'."));
+        ui->labelExplanation->setText(tr("These are your B0RG addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.\nSigning is only possible with addresses of the type 'legacy'."));
         ui->deleteAddress->setVisible(false);
         ui->newAddress->setVisible(false);
         break;

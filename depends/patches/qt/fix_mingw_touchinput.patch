@@ -1,0 +1,12 @@
+--- old/qtbase/src/plugins/platforms/windows/qwindowsmousehandler.cpp
++++ new/qtbase/src/plugins/platforms/windows/qwindowsmousehandler.cpp
+@@ -60,7 +60,8 @@
+  * are present in the Windows SDK's, but not in older MSVC Express
+  * versions. */
+ 
+-#if defined(Q_CC_MINGW) || !defined(TOUCHEVENTF_MOVE)
++/* Newer mingw-w64 already provides TOUCHINPUT. Redefining it breaks GCC 13. */
++#if !defined(TOUCHEVENTF_MOVE)
+ 
+ typedef struct tagTOUCHINPUT {
+     LONG x;
