@@ -114,4 +114,4 @@ src/test/test_litecoin --run_test=b0rg_tests
 
 ## License
 
-[MIT](COPYING). Copyright (c) 2009-2021 The Bitcoin Core developers, Copyright (c) 2009-2021 Bitcoin Developers, Copyright (c) 2011-2021 The Litecoin Core developers, and Copyright (c) 2026 The Assimilation Coin developers. Those upstream notices stay in [COPYING](COPYING) and in the source files that carry them. Third-party libraries under `src/` keep their own licenses (`src/secp256k1-zkp/COPYING`, `src/leveldb/LICENSE`, `src/univalue/COPYING`, `src/libmw/LICENSE`, `src/crypto/ctaes/COPYING`).
+[MIT](LICENSE). The same text is in [COPYING](COPYING), which is the file the source headers name. Copyright (c) 2009-2021 The Bitcoin Core developers, Copyright (c) 2009-2021 Bitcoin Developers, Copyright (c) 2011-2021 The Litecoin Core developers, and Copyright (c) 2026 The Assimilation Coin developers. Those upstream notices stay in both files and in the source files that carry them. Third-party libraries under `src/` keep their own licenses (`src/secp256k1-zkp/COPYING`, `src/leveldb/LICENSE`, `src/univalue/COPYING`, `src/libmw/LICENSE`, `src/crypto/ctaes/COPYING`).

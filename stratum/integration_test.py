@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+import secrets
 import shutil
 import socket
 import subprocess
@@ -49,7 +50,7 @@ def main() -> int:
     if os.path.exists(datadir):
         shutil.rmtree(datadir)
     os.makedirs(datadir)
-    user, password = "b0rg", "b0rg"
+    user, password = "b0rg", secrets.token_hex(16)
     url = "http://127.0.0.1:19432"
     log = open("/tmp/b0rg-regtest.log", "w")
     node = None
