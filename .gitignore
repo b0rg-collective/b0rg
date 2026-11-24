@@ -157,3 +157,13 @@ db4/
 osx_volname
 dist/
 *.background.tiff
+
+# Live node data and credentials. Do not commit a datadir, cookie, or conf.
+.b0rg/
+b0rg.conf
+*.cookie
+.cookie
+stratum/stats.json
+__pycache__/
+.env
+.env.*
