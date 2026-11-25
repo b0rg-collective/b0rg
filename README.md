@@ -8,6 +8,8 @@ Assimilation Coin is a Litecoin Core v0.21.4 fork. The ticker is **B0RG** (a zer
 
 Run a node: see [NODE.md](NODE.md)
 
+Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3rj)
+
 | | |
 |---|---|
 | Website | [shed-p00l.com](https://shed-p00l.com) |
@@ -113,6 +115,10 @@ src/test/test_litecoin --run_test=b0rg_tests
 ```
 
 `b0rg_tests` checks the 7,000,000,009 supply, the 286-byte header against `hashlib.blake2s`, and LWMA. `stratum/integration_test.py` mines on regtest through Stratum and then pegs in, sends MWEB to MWEB, and pegs out.
+
+## Community
+
+Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3rj)
 
 ## License
 
