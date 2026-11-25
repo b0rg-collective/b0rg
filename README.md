@@ -16,6 +16,8 @@ Run a node: see [NODE.md](NODE.md)
 
 Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3rj)
 
+Follow on X: [@b0rg79](https://x.com/b0rg79)
+
 | | |
 |---|---|
 | Website | [shed-p00l.com](https://shed-p00l.com) |
@@ -125,6 +127,8 @@ src/test/test_litecoin --run_test=b0rg_tests
 ## Community
 
 Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3rj)
+
+Follow on X: [@b0rg79](https://x.com/b0rg79)
 
 ## License
 
