@@ -4,6 +4,12 @@
 
 # Assimilation Coin (B0RG)
 
+## ⬇️ Download the Wallet
+
+**[Download B0RG Wallet v1.0.0 for Windows](https://github.com/b0rg-collective/b0rg/releases/download/v1.0.0/b0rg-win64.zip)** · [Linux node + wallet](https://github.com/b0rg-collective/b0rg/releases/download/v1.0.0/b0rg-phase1-linux-x86_64.tar.gz) · [All downloads and checksums](https://github.com/b0rg-collective/b0rg/releases/tag/v1.0.0)
+
+For Windows, unzip and run `b0rg-qt.exe`.
+
 Assimilation Coin is a Litecoin Core v0.21.4 fork. The ticker is **B0RG** (a zero, not the letter O). Proof of work is Kadena-compatible BLAKE2s-256, so Blake2s ASICs such as the Antminer KA3 and the Goldshell KD5, KD6, and KD-Box can mine it on factory firmware. MWEB privacy is opt-in. The desktop wallet calls the coin **drones**.
 
 Run a node: see [NODE.md](NODE.md)
