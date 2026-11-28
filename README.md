@@ -22,6 +22,8 @@ Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3
 
 Follow on X: [@b0rg79](https://x.com/b0rg79)
 
+Bitcointalk ANN: [topic 5601184](https://bitcointalk.org/index.php?topic=5601184.0)
+
 | | |
 |---|---|
 | Website | [b0rgcoin.com](https://b0rgcoin.com) |
@@ -136,6 +138,8 @@ Join the community on Telegram: [t.me/+FVT3yf_9KVQ3MDcx](https://t.me/+FVT3yf_9K
 Join the community on Discord: [discord.gg/MMEmvu3rj](https://discord.gg/MMEmvu3rj)
 
 Follow on X: [@b0rg79](https://x.com/b0rg79)
+
+Bitcointalk ANN: [topic 5601184](https://bitcointalk.org/index.php?topic=5601184.0)
 
 ## License
 
